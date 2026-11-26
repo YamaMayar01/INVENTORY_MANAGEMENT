@@ -1,0 +1,70 @@
+# --- Java & Build Tools ---
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.log
+hs_err_pid*
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# --- Oracle Database & Credentials ---
+# Never commit passwords, wallets, or connection configs
+*.env
+.env.*
+application-local.properties
+application-local.yml
+tnsnames.ora
+sqlnet.ora
+cwallet.sso
+ewallet.p12
+*.jks
+*.keystore
+
+# Database dumps, exports, and logs
+*.dmp
+*.sql.bak
+*.log
+sqlnet.log
+
+# --- Frontend (HTML / CSS / JS) ---
+node_modules/
+dist/
+.cache/
+.parcel-cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- IDEs & Editors ---
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse / Spring Tool Suite
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+desktop.ini

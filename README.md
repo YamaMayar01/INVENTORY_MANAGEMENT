@@ -128,20 +128,22 @@ The system uses Oracle Database to store and manage business information. The da
 
 The project follows a three-layer architecture:
 
-```text
-Frontend
-HTML / CSS / JavaScript
-          |
-          v
-Backend
-Java
-          |
-          v
-JDBC
-          |
-          v
-Oracle Database
+## System Architecture
+
+The system is designed using a layered architecture.
+
+```mermaid
+flowchart TD
+    U[System Users] --> F[Presentation Layer<br/>HTML, CSS, JavaScript]
+    F --> S[Java Backend Server]
+    S --> B[Business Logic Layer<br/>Java]
+    S -.-> A[Authentication and Authorization]
+    S -.-> E[Error Handling]
+    B --> D[Data Access Layer<br/>JDBC]
+    B -.-> V[Validation and Transaction Management]
+    D --> O[(Oracle Database)]
 ```
+
 
 ## Installation Requirements
 

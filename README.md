@@ -231,7 +231,7 @@ Each team member works on assigned tasks using separate development branches. Co
 
 - University: Kandahar University
 - Faculty: Computer Science
-- Course: Software Engineering I
+- Course: Software Engineering and Oracle database
 - Project Type: Academic Group Project
 - Academic Year: 2026
 
